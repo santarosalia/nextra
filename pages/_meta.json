@@ -1,15 +1,20 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
+  "index": {
+    "title": "Home",
+    "display": "hidden"
+  },
+  "manual": {
+    "title": "매뉴얼",
     "type": "page"
   },
-  "contact": {
-    "title": "Contact ↗",
+  "releaseNote": {
+    "title": "릴리스 노트",
+    "type": "page"
+  },
+  "designer": {
+    "title": "Designer ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://wd.digitalworker.co.kr/",
     "newWindow": true
   }
 }

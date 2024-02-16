@@ -1,0 +1,40 @@
+import { Callout, Tabs, Tab } from 'nextra/components'
+import {Gon} from '../../../components/activity';
+
+
+<Callout type="warning" emoji="⁉️">
+  콜아웃 테스트
+</Callout>
+## 브라우저 열기
+
+브라우저을 여는 액티비티입니다.
+
+### 입력
+
+#### 열기모드
+<Tabs items={['새 창으로 열기', '실행중인 창으로 열기']}>
+    <Tab>브라우저를 새창으로 연다</Tab>
+    <Tab>브라우저를 실행중인 창으로 연다</Tab>
+</Tabs>
+#### URL
+- url을 입력합니다.
+#### 브라우저
+- 브라우저를 선택합니다.
+#### TimeOut
+
+### 출력
+#### 인스턴스 명
+
+### 옵션
+- 크롬 args
+- 프로필 적용 여부
+
+### 공통 옵션
+- 지연(ms)
+
+### 스크립트 코드
+```js
+var browser = Browser.open();
+```
+
+<Gon/>
